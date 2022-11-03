@@ -1,0 +1,462 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= UnifrakturCook & display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#resp{
+    font-size: 3em;
+    color: aliceblue; 
+}
+#resp:hover{
+    font-size: 3.2em;
+    cursor: pointer;
+}
+menu{
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;   
+}
+#nom{
+   margin-right: 4%;
+}
+#menresp{
+    display: none;
+}
+#men{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
+    color: aliceblue;
+    display: none;
+}#men a{
+    color: aliceblue;
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 3px;
+    padding: 3px;
+    font-size: 1em;
+}
+#men a:hover{
+    padding: 5px;
+    color: rgba(216, 253, 4, 0.712);
+    background-color: rgba(22, 22, 22, 0.705);
+    border-radius: 3px;
+}
+ul{
+    list-style-type: none;
+}
+#mat{
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: aliceblue;
+    font-size: 2em;
+}
+.mart{
+    font-family: 'UnifrakturMaguntia', cursive;
+    color:aliceblue;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-top: 10%;
+}
+.tat{
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    font-size: 1.5em;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+#ho{
+    color: red;
+    font-size: 2.6em;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#hor{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.671);
+    padding: 10px;
+}
+#hed{
+    text-align: center;
+    padding-top: 36%;
+    padding-left: 10%;
+    padding-bottom: 0px;
+}
+.para{
+    background-attachment: fixed;
+    background-size: contain;
+}
+#he {
+    height: 72vw;
+    display: flex;
+    background-image: url("midias/hed.jpg");  
+}
+.her{
+    height: 73vw;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#hev{
+    height: 20vw; 
+}
+.hed{
+    display: none;
+}
+#heg {
+    height: 78vw;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    background-image: url(midias/hed.jpg);
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#bote {
+    margin-left: 9%;
+    width: 24vh;
+    height: 15px;
+}
+
+#hei {
+    height: 250vw;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    background-image: url("midias/hed.jpg");  
+}
+.pri{
+    text-align: center;
+    padding: 0px;
+    
+}
+form{
+    margin: auto;
+    width: 63vh;
+    background-image: linear-gradient(to right, rgb(7, 7, 7), rgb(59, 59, 59),rgb(59, 59, 59),rgb(7, 7, 7));
+    padding: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.774);
+    border-radius: 15px;
+    
+}
+#fo{
+    width: 64vh;
+    background-color: #00000041;
+}
+.for{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.582);
+}
+  h1.for{
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+  p.for{
+    font-size: 1.2em;
+}
+input{
+   width: 100%;
+   height: 25px;
+   border-radius: 5px;
+   margin-bottom: 15px;
+}
+textarea{
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+input.but{
+    margin-left: 35%;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.733);
+    border-radius: 10px;
+    font-size: 1.5em;
+    
+}
+.midias {
+    margin-top: 10px;
+    display: block;
+    width: 70px;
+    border-radius: 50% 50%;
+    box-shadow: 3px 3px 5px rgb(77 77 77 / 77%);
+}
+.botao:hover{
+    padding: 11px;   
+}
+#bot:hover{
+    padding: 11px;
+}
+.botao a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+#ima{
+    background-image: url("midias/s11.jpg" );
+    height: 72vw; 
+    padding: 0px;
+    background-position: center;
+}
+article{
+    height: 270px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+
+}
+h1{
+    color: black;
+    font-size: 2em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    color: black;
+    font-size: 1.2em;
+    font-family: 'UnifrakturMaguntia', cursive;
+    text-align: center;
+    padding: 15px;
+}
+p{
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.slider{
+    display: block;
+   height: 840px;
+   overflow:hidden;
+}
+.slides input{
+    display: none;
+}
+#radio1:checked~.first{
+    margin-left: 0;
+}
+#radio2:checked~.first{
+    margin-left: -17%;
+}
+#radio3:checked~.first{
+    margin-left: -34%;
+}
+#radio4:checked~.first{
+    margin-left: -51%;
+}
+#radio5:checked~.first{
+    margin-left: -68%;
+}
+#cartao{
+    background-image: url("midias/Cartão.png" );
+    height: 72vw; 
+    padding: 0px;
+    background-position: center;
+}
+#cont {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.med {
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+}
+.foo{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+#foot{
+    display: block; 
+}
+.midia{
+    display: block;
+    width: 35px;
+    border-radius: 50% 50%;
+    box-shadow: 3px 3px 5px rgba(77, 77, 77, 0.767);
+    padding: 3px;
+    padding-left: 0px;
+}
+#log{
+    display: block;
+}
+.midia:hover{
+    padding: 4px;
+    
+}
+#foot {
+    margin-left: 10%;
+    display: block;
+}
+footer{
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(22, 22, 22), rgb(48, 47, 47), rgb(48, 47, 47), rgb(22, 22, 22));
+    box-shadow: 3px 3px 5px black;    
+    padding: 10px;
+    padding-left: 0px;
+}
+#whats {
+    position: fixed;
+    bottom: 5px;
+    left: 40px;
+    width: 10%;
+}
+#whats:hover{
+    padding: 4px;
+}
+.nome{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    margin-left: 37%;
+    left: 0px;
+    width: 7%;
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616); 
+}
+.nomes{
+    display: none;
+    position: fixed;
+    bottom: 3px;
+    left: 0px;
+    margin-left: 35%;
+    font-size: 1.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);   
+}  
+menu, .her, .para, .pri, #ima, article, .slider, #cartao, footer, #galeria, #heg, #fo{
+    width: 78vh;
+}
+menu, footer{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.slides {
+    background-color: #ede9e9c9;
+    background-size: cover;
+    display: flex;
+    padding-right: 0px;
+    color: black;
+}
+.slide img {
+    box-shadow: 4px 4px 4px #000000ad;
+    margin: 20px;
+    padding: 10px;
+    background-size: cover;
+    width: 37vh;
+    height: 180px;
+    border-radius: 50% 50%;
+    background-color: #2a292933;
+}
+.sla {
+    box-shadow: 4px 4px 4px #000000ad;
+    background-color: #7e7a7a3d;
+    padding: 19px;
+    color: #000000fa;
+    text-align: justify;
+    font-size: .8;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#bot {
+    margin-left: 38%;
+    width: 22vh;
+    height: 10px;
+    
+}
+.botao {
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
+    font-size: 1em;
+    box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
+    background-color: red;
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 6px;
+}
+#som {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+}
+video {
+    border-radius: 10px;
+    background-color: #000000cf;
+    margin-top: 10px;
+    width: 64vh;
+}
+main{
+  display: block;  
+}
+#hei {
+    width: 78vh;
+    height: 590vw;
+}
+#galeria {
+    padding: 2px;
+    display: flex;
+    margin: auto;
+    width: 78vh;
+    height: 590vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff000081;
+}
+.foto {
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.foto img {
+    width: 15vh;
+    height: 135px;
+}
+.foto img:hover{
+    width: 22vh;
+    height: 150px;
+}
+#menresp{
+    display: none;
+}

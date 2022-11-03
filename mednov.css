@@ -1,0 +1,985 @@
+@media  screen and (min-width: 493px){
+
+    #resp{
+        display: none;
+    }
+    #men{
+        margin-right: 10px;
+        display: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-start;   
+       
+    }
+    #menresp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-start;  
+        margin-bottom: 0px;
+    }
+    menu{
+        display: block;
+        padding-bottom: 3px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+#nom {
+    margin-left: 0px;
+    
+}
+    ul{
+        margin-left: 0px;
+        display: flex; 
+    }
+    #menresp a {
+        background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(75, 73, 73), rgb(26, 25, 25));
+        color: rgba(255, 254, 254, 0.863);
+        font-size: 1.1em;
+        margin-right: 10px;
+        padding: 10px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+        border-bottom: none;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        border-radius: 4px ;
+}
+#menresp a:hover{
+    padding: 12px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to top, rgb(255, 155, 155),rgb(255, 0, 0), rgb(255, 155, 155));
+    color: rgba(255, 255, 255, 0.993);
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+}
+    .slides {
+        background-color: #ede9e9c9;
+        background-size: cover;
+        display: flex;
+        padding-right: 0px;
+        color: black;
+    }
+    .slide img {
+        box-shadow: 4px 4px 4px #000000ad;
+        margin: 20px;
+        padding: 10px;
+        background-size: cover;
+        width: 37vh;
+        height: 180px;
+        border-radius: 50% 50%;
+        background-color: #2a292933;
+    }
+    .sla {
+        box-shadow: 4px 4px 4px #000000ad;
+        background-color: #7e7a7a3d;
+        padding: 19px;
+        color: #000000fa;
+        text-align: justify;
+        font-size: .8;
+        margin: 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+   
+    #heg {
+        height: 53vw;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        background-image: url(midias/hed.jpg);
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mart{
+        font-size: 3.5em;
+        margin-top: 4%;
+    }
+    #bote {
+        margin-left: 9%;
+        width: 24vh;
+        height: 15px;
+    }
+    .her {
+        height: 53vw;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    #he {
+        height: 53vw;
+        background-position: center center;
+        display: flex;
+        background-image: url("midias/hed.jpg");  
+    }
+    #ima{
+        height: 53vw; 
+    }
+    #cartao{
+        height: 53vw; 
+    }
+    #hei {
+        width: 166vh;
+        height: 475vw;
+    }
+    #galeria {
+        padding: 2px;
+        display: flex;
+        margin: auto;
+        width: 167vh;
+        height: 475vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #ff000081;
+    }
+    .foto {
+        background-color: rgba(0, 0, 0, 0.74);
+        margin-top: 10px;
+        display: flex;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .foto img {
+        width: 30vh;
+        height: 200px;
+    }
+    .foto img:hover{
+        width: 40vh;
+        height: 300px;
+    }
+    #bot {
+        margin-left: 42%;
+        width: 22vh;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .botao a{
+        text-shadow: 3px 3px 4px black;
+    }
+    .botao {
+        text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
+        font-size: 1.2em;
+        box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
+        background-image: linear-gradient(to top, rgb(255, 0, 0),rgb(255, 97, 97), rgb(255, 0, 0));
+        color: rgba(255, 255, 255, 0.993);
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .pri {
+        width: 204vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #som {
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.3em;
+    }
+    video {
+        border-radius: 10px;
+        background-color: #000000cf;
+        padding: 10px;
+        margin-top: 10px;
+        width: 70vh;
+    }
+    form {
+        width: 100vh;
+        padding: 30px;
+    }
+    #cont {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .med {
+        font-size: 1.8em;
+        color: white;
+        text-align: justify;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+        text-shadow: 3px 3px 4px black;
+    }
+    #foot {
+        margin-left: 23%;
+        display: block;
+    }
+    #whats {
+        position: fixed;
+        bottom: 5px;
+        left: 40px;
+        width: 10%;
+    }
+    menu, .her, .para, .pri, #ima, article, .slider, #cartao, footer, #galeria, #heg, #fo {
+            width: 167vh;
+        }
+    menu, footer{
+        padding-left: 11px;
+        padding-right: 11px;
+    }}
+
+
+ @media  screen and (min-width: 750px){
+    #resp{
+        display: none;
+    }
+    #men{
+        margin-right: 10px;
+        display: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: center;   
+        margin-bottom: 0px;
+    }
+    #menresp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-start;  
+        margin-bottom: -10px;
+    }
+    menu{
+        display: block;
+        padding-bottom: 13px;
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-bottom: 0px;
+    }
+#nom {
+    margin-left: 0px;
+    
+}
+    ul{
+        margin-left: 0px;
+        display: flex; 
+    }
+    #menresp a {
+        background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(75, 73, 73), rgb(26, 25, 25));
+        font-size: 1.3em;
+        margin-right: 10px;
+        padding: 10px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+        margin-left: 3px;
+}
+#menresp a:hover{
+    padding: 12px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to top, rgb(255, 155, 155),rgb(255, 0, 0), rgb(255, 155, 155));
+    color: rgba(255, 255, 255, 0.993);
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+}
+    .slides {
+        background-color: #ede9e9c9;
+        background-size: cover;
+        display: flex;
+        padding-right: 0px;
+        color: black;
+    }
+    .slide img {
+        box-shadow: 4px 4px 4px #000000ad;
+        margin: 20px;
+        padding: 10px;
+        background-size: cover;
+        width: 37vh;
+        height: 180px;
+        border-radius: 50% 50%;
+        background-color: #2a292933;
+    }
+    .sla {
+        box-shadow: 4px 4px 4px #000000ad;
+        background-color: #7e7a7a3d;
+        padding: 19px;
+        color: #000000fa;
+        text-align: justify;
+        font-size: .8;
+        margin: 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    .her{
+        height: 50vw;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+    #heg {
+        height: 50vw;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        background-image: url(midias/hed.jpg);
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .mart{
+        font-size: 3.5em;
+        margin-top: 4%;
+    }
+    #bote {
+        margin-left: 17%;
+        width: 24vh;
+        height: 15px;
+    }
+    #he {
+        height: 50vw;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        background-image: url("midias/hed.jpg");  
+    }
+    #ima{
+        height: 50vw; 
+    }
+    #cartao{
+        height: 50vw; 
+    }
+    #hei {
+        width: 148vh;
+        height: 260vw;
+    }
+    #galeria {
+        padding: 2px;
+        display: flex;
+        margin: auto;
+        width: 149vh;
+        height: 260vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #ff000081;
+    }
+    .foto {
+        background-color: rgba(0, 0, 0, 0.74);
+        margin-top: 10px;
+        display: flex;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .foto img {
+        width: 30vh;
+        height: 200px;
+    }
+    .foto img:hover{
+        width: 40vh;
+        height: 300px;
+    }
+    #bot {
+        margin-left: 43%;
+        width: 22vh;
+        height: 10px;
+        margin-top: 10px;
+    }
+    .botao {
+        text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
+        font-size: 1em;
+        box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
+        background-color: red;
+        color: aliceblue;
+        padding: 4px;
+        border-radius: 20px;
+        
+        margin-top: 5px;
+    }
+    .pri {
+        width: 204vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #som {
+        text-align: center;
+        margin: auto;
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 1.3em;
+    }
+    form {
+        width: 100vh;
+        padding: 30px;
+    }
+    video {
+        border-radius: 10px;
+        background-color: #000000cf;
+        padding: 10px;
+        margin-top: 10px;
+        width: 70vh;
+    }
+    #cont {
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .med {
+        font-size: 1.8em;
+        color: white;
+        text-align: justify;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+        text-shadow: 3px 3px 4px black;
+    }
+    menu, .her, .para, .pri, #ima, article, .slider, #cartao, footer, #galeria, #heg, #fo{
+        width: 149vh;
+    }
+    #foot {
+        margin-left: 23%;
+        display: block;
+    }
+    #whats {
+        position: fixed;
+        bottom: 5px;
+        left: 40px;
+        width: 10%;
+    }
+    menu, footer{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    }
+
+@media  screen and (min-width: 950px){
+    menu, .her, .para, .pri, #ima, article, .slider, #cartao, footer, #galeria, #heg, #fo{
+        width: 199vh;
+
+}
+#mat{
+    font-size: 3.5em;
+}
+#menresp a {
+    background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(75, 73, 73), rgb(26, 25, 25));
+    font-size: 1.3em;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+    margin-left: 3px;
+}
+#menresp a:hover{
+padding: 12px;
+padding-top: 4px;
+padding-bottom: 0px;
+background-image: linear-gradient(to top, rgb(255, 155, 155),rgb(255, 0, 0), rgb(255, 155, 155));
+color: rgba(255, 255, 255, 0.993);
+margin-bottom: 0px;
+text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+}
+.mart{
+    font-size: 4.5em;
+    margin-top: 4%;
+}
+#bot {
+    margin-left: 45%;
+    width: 18vh;
+    height: 15px;
+}
+.botao {
+    font-size: 1.1em;
+    padding: 5px;
+    margin-top: 6px;
+}
+#ho {
+font-size: 3.6em;
+padding-top: 70px;
+}
+#hor {
+font-size: 1.3em;
+color: rgb(216 253 4 / 71%);
+
+}
+.her{
+    height: 43vw;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#he {
+    height: 43vw;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    background-image: url("midias/hed.jpg");  
+}
+#heg {
+    height: 43vw;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    background-image: url(midias/hed.jpg);
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#bote {
+    margin-left: 17%;
+    width: 24vh;
+    height: 15px;
+}
+#ima{
+    height: 43vw; 
+}
+#cartao{
+    height: 43vw; 
+}
+#hei {
+    width: 198vh;
+    height: 210vw;
+}
+#galeria {
+    padding: 2px;
+    display: flex;
+    margin: auto;
+    width: 199vh;
+    height: 210vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff000081;
+}
+.foto {
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+.foto img {
+    width: 40vh;
+    height: 200px;
+}
+.foto img:hover{
+    width: 50vh;
+    height: 300px;
+}
+h1{
+font-size: 2.2em;
+}
+h2{
+    font-size: 1.4em;
+}
+p{
+font-size: 1.1em;
+}
+.slides {
+    background-color: #ede9e9c9;
+    background-size: cover;
+    display: flex;
+    padding-right: 0px;
+    color: black;
+}
+.slide img {
+    box-shadow: 4px 4px 4px #000000ad;
+    margin: 20px;
+    padding: 10px;
+    background-size: cover;
+    width: 37vh;
+    height: 180px;
+    border-radius: 50% 50%;
+    background-color: #2a292933;
+}
+.sla {
+    box-shadow: 4px 4px 4px #000000ad;
+    background-color: #7e7a7a3d;
+    padding: 19px;
+    color: #000000fa;
+    text-align: justify;
+    font-size: .8;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.botao {
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
+    font-size: 1.2em;
+    box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.pri {
+    width: 204vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#som {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+}
+video {
+    border-radius: 10px;
+    background-color: #000000cf;
+    padding: 10px;
+    margin-top: 10px;
+    width: 70vh;
+}
+form {
+    width: 100vh;
+    padding: 30px;
+}
+.art{
+padding: 250px;
+padding-top: 20px;
+padding-bottom: 0px;
+}
+#cont {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.med {
+    font-size: 1.8em;
+    color: white;
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+}
+footer{
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+#whats {
+width: 7%;
+}
+.nome{
+display: block;  
+bottom: 25px;
+margin-left: 71%;
+}
+.nomes{
+display: block;  
+margin-left: 70%;
+}  
+#whats {
+    left: 20px;
+}}
+
+
+@media  screen and (min-width: 1075px){
+    menu, #heg, #he, .her, .para, .pri, #ima, article, .slider, #cartao, footer, #heg, #fo{
+        width: 204vh;
+    }
+    #mat{
+        font-size: 3.5em;
+    }
+    #menresp a {
+        background-image: linear-gradient(to top, rgb(26, 25, 25),rgb(75, 73, 73), rgb(26, 25, 25));
+        font-size: 1.3em;
+        margin-right: 10px;
+        padding: 10px;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+        margin-left: 3px;
+}
+#menresp a:hover{
+    padding: 12px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to top, rgb(255, 155, 155),rgb(255, 0, 0), rgb(255, 155, 155));
+    color: rgba(255, 255, 255, 0.993);
+    margin-bottom: 3px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+}
+.her{
+    height: 37vw;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+#he {
+    height: 37vw;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    background-image: url("midias/hed.jpg");  
+}
+#hei {
+    width: 204vh;
+    height: 260vw;
+}
+
+#galeria {
+    padding: 2px;
+    display: flex;
+    margin: auto;
+    width: 204vh;
+    height: 260vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff000081;
+}
+textarea{
+    display: none;
+}
+#area{
+    display: block;
+}
+#ga{
+    color: aliceblue;
+    text-shadow: 3px 3px 5px black;
+}
+.foto{
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.foto img{
+    background-size: cover;
+    background-position: center center;
+    margin: 4px;
+    width: 39vh;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.603);
+}
+.foto img:hover{
+    width: 59vh;
+    height: 450px;
+}
+    .mart{
+        margin-top: 6%;
+        font-size: 4.5em;
+    }
+    .botao {
+        text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
+        font-size: 1.2em;
+        box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
+        background-color: red;
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    #bot {
+        margin-left: 44%;
+        width: 24vh;
+    }
+    .hed{
+        display: none;
+    }
+    #hev{
+        height: 30vw; 
+    }
+    #ima{
+        height: 37vw; 
+    }
+    #cartao{
+        height: 37vw; 
+    }
+    #heg {
+        height: 30vw;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        background-image: url("midias/hed.jpg");  
+    }
+main{
+    height: 30vw;
+    display: flex;
+    margin: auto;
+    width: 204vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    background-color: #0000009d;
+}    
+.pri {
+    width: 204vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#som {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+}
+video {
+    border-radius: 10px;
+    background-color: #000000cf;
+    padding: 10px;
+    margin-top: 10px;
+    width: 70vh;
+}
+form {
+    width: 100vh;
+    padding: 30px;
+}
+#ho {
+    font-size: 3.6em;
+    padding-top: 70px;
+}
+#hor {
+    font-size: 1.3em;
+    color: rgb(216 253 4 / 71%);
+    
+}
+h1{
+    font-size: 2.5em;
+}
+h2 {
+    box-shadow: 3px 3px 1px #0000008f;
+    font-size: 1.2em;
+    background-color: rgb(199 196 196 / 48%);
+    border-radius: 49px;
+    color: #262626;
+    text-shadow: 2px 2px 4px #00000073;
+    margin: 4px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 1.3em;
+}
+.slides {
+    background-color: #ede9e9c9;
+    background-size: cover;
+    display: flex;
+    padding-right: 0px;
+    color: black;
+}
+.slide img {
+    box-shadow: 4px 4px 4px #000000ad;
+    margin: 20px;
+    padding: 10px;
+    background-size: cover;
+    width: 37vh;
+    height: 180px;
+    border-radius: 50% 50%;
+    background-color: #2a292933;
+}
+.sla {
+    box-shadow: 4px 4px 4px #000000ad;
+    background-color: #7e7a7a3d;
+    padding: 19px;
+    color: #000000fa;
+    text-align: justify;
+    font-size: .8;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.art{
+    padding: 250px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#cont {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.med {
+    font-size: 1.8em;
+    color: white;
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+}
+.foo{
+    padding-right: 200px;
+    padding-left: 0px;
+}
+footer{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#whats {
+    width: 6%;
+}
+.nome{
+    display: block;  
+    bottom: 25px;
+    margin-left: 81%;
+}
+.nomes{
+    display: block;  
+    margin-left: 80%;
+}  
+}
