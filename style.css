@@ -12,11 +12,11 @@ body{
     display: none;
 }
 #resp{
-    font-size: 3em;
+    font-size: 4em;
     color: aliceblue; 
 }
 #resp:hover{
-    font-size: 3.2em;
+    font-size: 4.2em;
     cursor: pointer;
 }
 menu{
@@ -45,7 +45,7 @@ menu{
      text-decoration: none;
      margin-top: 3px;
      padding: 3px;
-     font-size: 1em;
+     font-size: 1.5em;
  }
  #men a:hover{
      padding: 5px;
@@ -59,15 +59,15 @@ menu{
      list-style-type: none;
  }
  #mat{
-    margin-right: 29%;
+    margin-right: 13%;
     font-family: 'UnifrakturMaguntia', cursive;
     color: aliceblue;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .center{
-    margin-top: 5%;
+    margin-top: 1%;
 }
 .bbbb{
     text-align: center;
@@ -75,30 +75,32 @@ menu{
 .mart{
     font-family: 'UnifrakturMaguntia', cursive;
     color:aliceblue;
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 .tat{
     font-family:Arial, Helvetica, sans-serif;
     color: red;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0px;
 }
 #ho{
     color: red;
-    font-size: 2.6em;
+    font-size: 3.1em;
+    padding-top: 0px;
 }
 #hor{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
     text-align: center;
     color: rgba(240, 248, 255, 0.671);
-    padding: 10px;
+    padding: 6px;
 }
 #hed{
     width: 100%;
@@ -259,9 +261,9 @@ h2{
     
 }
 .op{
-        height: 50%;
+        height: 80%;
         border-radius: 50% 50%;
-        width: 50%;
+        width: 90%;
         box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.562); 
         margin: 20px;
         padding: 10px;
@@ -303,7 +305,7 @@ h2{
 #slide10:checked ~ .s1{ margin-left: -90%;}
 
 .caixa{
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     box-shadow: 3px 3px 1px #0000008f;
     background-color: rgb(199 196 196 / 48%);
@@ -321,7 +323,7 @@ h2{
     padding: 19px;
     color: #000000fa;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.9em;
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -378,7 +380,7 @@ p{
 }
 .midia{
     display: block;
-    width: 35px;
+    width: 30%;
     border-radius: 50% 50%;
     box-shadow: 3px 3px 5px rgba(77, 77, 77, 0.767);
     padding: 3px;
@@ -403,7 +405,7 @@ footer{
     position: fixed;
     bottom: 5px;
     left: 40px;
-    width: 10%;
+    width: 13%;
 }
 #whats:hover{
     padding: 4px;
@@ -436,7 +438,7 @@ menu, footer{
 }
 .molde{
     overflow: hidden;
-    height: 800px;
+    height: 1216px;
     width: 1350px;
 }
 .slides {
@@ -463,12 +465,12 @@ menu, footer{
     margin-bottom: 30px;
 }
 #bot {
-    margin-left: 40%;
+    margin-left: 34%;
     height: 10px;
 }
 .botao {
     text-shadow: 1px 1px 2px rgb(0 0 0 / 34%);
-    font-size: 1em;
+    font-size: 1.3em;
     box-shadow: 4px 4px 7px rgb(0 0 0 / 62%);
     background-color: red;
     color: aliceblue;
@@ -483,7 +485,7 @@ menu, footer{
     padding: 50px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 video {
     border-radius: 10px;
