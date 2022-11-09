@@ -23,6 +23,11 @@ function auto(){
     document.getElementById("slide"+mover).checked = true;
 
 }
+function tamanho(){
+    if(innerWidth >=685){
+        men.style.display= "block";
+    }
+}
 
 
 

@@ -92,8 +92,6 @@ menu{
 #ho{
     color: red;
     font-size: 2.6em;
-    padding-top: 60px;
-    padding-bottom: 20px;
 }
 #hor{
     font-family:Arial, Helvetica, sans-serif;
@@ -114,12 +112,16 @@ menu{
     background-attachment: fixed;
 }
 #he {
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
     display: flex;
     background-image: url("img/hed.jpg");  
 }
 .her{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: rgba(0, 0, 0, 0.527);
 }
 #hev{
@@ -434,7 +436,7 @@ menu, footer{
 }
 .molde{
     overflow: hidden;
-    height: 700px;
+    height: 800px;
     width: 1350px;
 }
 .slides {
